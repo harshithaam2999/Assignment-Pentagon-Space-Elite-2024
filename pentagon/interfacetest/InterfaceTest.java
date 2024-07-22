@@ -14,7 +14,8 @@ class AirAsia implements FlightBooking
 {
 
 	@Override
-	public void checkavailability() {
+	public void checkavailability()
+	{
 		System.out.println("AirAsia Flights are available on 18-07-2024 ");
 		
 	}
@@ -23,14 +24,17 @@ class AirAsia implements FlightBooking
 class Indigo implements FlightBooking{
 
 	@Override
-	public void checkavailability() {
+	public void checkavailability() 
+	{
 		System.out.println("Indigo Flights are available on 18-07-2024 ");
 		
 	}	
 }
-public class InterfaceTest {
+public class InterfaceTest 
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 	
 		AirAsia asia = new AirAsia();
 		asia.checkavailability();
