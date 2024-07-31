@@ -31,7 +31,7 @@ class FlightApplication implements Flight
  // Method to book seats
  @Override
  public void bookSeat(int numSeats) {
-     if (numSeats <= checkAvailability()) 
+     if (numSeats <= checkAvailability())
      {
          bookedSeats += numSeats;
          System.out.println(numSeats + " seats booked successfully for " + airline + " to " + destination);
