@@ -29,12 +29,12 @@ public class ListExample {
 		
 		
 		System.out.println("With Enhanced for loop");
-		for(String name : names) // syntax: for(String str : list)
+		for(String n : names) // syntax: for(String str : list)
 		{
-			name = names.get(0);
-			name=names.get(7);
-			name=names.get(8);
-			System.out.println(names);
+			n= names.get(0);
+			n=names.get(7);
+			n=names.get(8);
+			System.out.println(n);
 		}
 		
 	}
